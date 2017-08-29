@@ -1,0 +1,57 @@
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  border-bottom: solid lightgrey 1px;
+  height: 180px;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+}
+
+.logo {
+
+  align-items: center;
+  display: flex;
+  padding-left: 80px;
+  flex-grow: 1;
+}
+
+.logo span {
+  color: mediumaquamarine;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+
+header nav {
+  display: block;
+  padding-right: 60px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav a:link {
+  color: mediumaquamarine;
+}
+
+nav a:visited {
+  color: mediumaquamarine;
+}
+
+nav a:hover {
+  color: lightgrey;
+}
+
+nav a:active {
+  color: mediumaquamarine;
+}
