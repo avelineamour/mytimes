@@ -9,6 +9,8 @@ header {
   width: 100%;
   align-items: center;
   position: fixed;
+  background-color: white;
+  z-index: 1;
 }
 
 .logo {
@@ -54,4 +56,59 @@ nav a:hover {
 
 nav a:active {
   color: mediumaquamarine;
+}
+
+.main {
+  display: flex;
+  border: solid 1px mediumaquamarine;
+  position: relative;
+  top: 180px;
+  width: 100%;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+
+}
+
+.large {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+}
+.large span {
+  border: solid 1px lightgrey;
+}
+
+.large p {
+  border: solid 1px lightgrey;
+}
+
+.large h2 {
+  border: solid 1px lightgrey;
+}
+
+.medium {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: solid 1px lightgrey;
+}
+
+.small {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  border: solid 1px lightgrey;
+}
+
+.small img {
+  border: solid 1px lightgrey;
+}
+
+.small h3 {
+  border: solid 1px lightgrey;
+}
+
+.small p {
+  border: solid 1px lightgrey;
 }
