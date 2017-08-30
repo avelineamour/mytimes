@@ -58,139 +58,62 @@ nav a:active {
   color: mediumaquamarine;
 }
 
-.main {
+.container {
   display: flex;
-  border: solid 1px mediumaquamarine;
+  flex-flow: row wrap;
+  justify-content: space-between;
   position: relative;
   top: 180px;
   width: 100%;
-  flex-wrap: wrap;
-
-  justify-content: space-around;
-
 }
 
-.large {
+.largecolumn {
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   width: 630px;
-  border: solid 1px lightgrey;
-  margin-right: 30px;
-}
-.large span {
-  border: solid 1px lightgrey;
-  flex-wrap: wrap;
+
 }
 
-.large p {
-  border: solid 1px lightgrey;
-  flex-wrap: wrap;
-}
-
-.large h2 {
-  border: solid 1px lightgrey;
-  flex-wrap: wrap;
-}
-
-.medium {
+.mediumcolumn {
   display: flex;
-  flex-direction: column;
   width: 300px;
-  border: solid 1px lightgrey;
+
 }
 
-.small {
+.smallcolumn {
   display: flex;
-  flex-direction: column;
   width: 240px;
-  border: solid 1px lightgrey;
 }
 
-.small img {
-  border: solid 1px lightgrey;
+.section1 {
+  flex-flow: row wrap;
+  width: 630px;
 }
 
-.small h3 {
-  border: solid 1px lightgrey;
-}
-
-.small p {
-  border: solid 1px lightgrey;
-}
-
-.img1 span {
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  font-family: Georgia;
-  border: solid 1px lightgrey;
-}
-
-.articletitle {
-  color: white;
-  font-size: 30px;
-  font-weight: bold;
-  font-family: Georgia;
-  border: solid 1px lightgrey;
-  text-align: : center;
-  width: 170px;
-
-
-}
-
-.img1 {
-  display: flex;
+.spanfull span {
   background-image: url("../images/img-story-main.png");
-  background-repeat: no-repeat;
+  display: block;
   height: 300px;
-  border: solid 1px lightgrey;
-
+  width: 630px;
 
 }
 
-.img2 {
+.section2 {
   display: flex;
-  background-image: url("../images/img-story-2.png");
-  background-repeat: no-repeat;
-  height: 300px;
-  border: solid 1px lightgrey;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  flex-flow: column wrap;
+  align-content: space-between;
 }
 
-.img3 {
+.section2half {
   display: flex;
-  background-image: url("../images/img-story-3.png");
-  background-repeat: no-repeat;
-  height: 300px;
-  border: solid 1px lightgrey;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-
-}
-
-.story {
-  display: flex;
-  flex-direction: column;
+  flex-flow: column-reverse wrap;
   width: 300px;
-  flex-wrap: wrap;
-  
+}
 
+.text {
 
 }
 
-.stories {
-  display: flex;
-  justify-content: space-between;
+.spanhalf1 {
 
-}
-
-.mainstory {
-  display: block;
-}
-
-.storytext {
-  display: block;
 }
