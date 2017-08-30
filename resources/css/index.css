@@ -1,7 +1,10 @@
 
+body {
+  padding-top: 0px;
+}
 header {
-  font-family: Verdana;
-  font-size: 14px;
+  font-family: "Europa-Light";
+  font-size: 16px;
   font-weight: bold;
   display: flex;
   border-bottom: solid lightgrey 1px;
@@ -63,25 +66,21 @@ nav a:active {
   flex-flow: row wrap;
   justify-content: space-around;
   position: relative;
-  top: 180px;
+  top: 225px;
   width: 100%;
-
-
+  font-family: "Europa-Light";
 }
 
 .largecolumn {
   display: flex;
   flex-flow: row wrap;
   width: 630px;
-  border: solid 1px lightgrey;
-
 }
 
 .mediumcolumn {
   display: flex;
   width: 300px;
   border: solid 1px lightgrey;
-
 }
 
 .smallcolumn {
@@ -93,51 +92,68 @@ nav a:active {
 .section1 {
   flex-flow: row wrap;
   width: 630px;
-  border: solid 1px lightgrey;
 }
 
-.spanfull span {
+.spanfullimage {
   background-image: url("../images/img-story-main.png");
-  display: block;
   height: 300px;
   width: 630px;
-  border: solid 1px lightgrey;
-
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.spanfullheader {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Europa";
+  margin-left: 20px;
 }
 
 .section2 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  border: solid 1px mediumaquamarine;
   width: 100%;
-
 }
 
 .section2half {
   display: flex;
   flex-flow: column wrap;
   width: 300px;
-
-  border: solid 1px lightgrey;
 }
 
-.text {
-  border: solid 1px lightgrey;
-
-}
-
-.spanhalf1 {
+.spanhalfimage1 {
   background-image: url("../images/img-story-2.png");
   background-repeat: no-repeat;
   height: 300px;
-  border: solid 1px lightgrey;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
 
 }
 
-.spanhalf2 {
+.spanhalfimage2 {
   background-image: url("../images/img-story-3.png");
   background-repeat: no-repeat;
   height: 300px;
-  border: solid 1px lightgrey;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.spanhalfheader {
+  font-family: "Europa";
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: mediumaquamarine;
 }
